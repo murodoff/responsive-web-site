@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f1f1f1;
+    font-family: 'roboto', sans-serif;
+}
+
+#navbar{
+    background-color: #fff;
+    position: fixed;
+    width: 300px;
+    z-index: 3;
+    height: 100vh;
+}
+
+#navbar img{
+    margin: 1rem;
+    width: 45%;
+    border-radius: 4px;
+}
+
+.nav-name{
+    font-size: 22px;
+    color: #333;
+    font-weight: 500;
+    padding-left: 1rem;
+    text-transform: uppercase;
+}
+
+.nav-info{
+    font-size: 15px;
+    padding: 1rem;
+    font-style: italic;
+    color: #777;
+}
+
+.menus{
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menus p{
+    cursor: pointer;
+    padding: .7rem .7rem .7rem 2rem;   
+        
+}
+
+.menus p a{
+    color: #333;
+}
+
+.menus p:hover{
+    background-color: #ddd;
+}
+
+.clr{
+    clear: both;
+}
+
+.container{
+    margin-left: 300px;
+    padding: 1rem;
+}
+
+.port-name{
+    font-size: 32px;
+    text-transform: capitalize;
+    letter-spacing: .4px;
+    font-weight: bolder;
+    font-family: 'raleway', sans-serif;
+    padding-bottom: 2rem;
+}
+
+.port-filtr span{
+    font-size: 16px;
+    padding-right: 1rem;
+}
+
+.port-filtr button{
+    border: none;
+    padding: .7rem 1.3rem;
+    background-color: #fff;
+}
+
+.active{
+    background-color: #000!important;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+#portfolio hr{
+    margin-top: 1rem;
+    border-bottom: 3px solid #999;
+}
+
+.images-row1, .images-row2{
+    padding: .5rem;
+    margin-left: 300px;
+    margin-bottom: 2rem;
+}
+
+.col-img{
+    width: 33.333%;
+    float: left;
+    padding: .5rem; 
+}
+
+.bg-color{
+    background-color: #fff;
+}
+
+.col-img img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.col-img img:hover{
+    opacity: .5;
+}
+
+.col-img-name{
+    font-size: 18px;
+    padding: 1rem;
+    padding-top: .5rem;
+}
+
+.col-img-text{
+    font-size: 14px;
+    line-height: 1.6rem;
+    color: #333;
+    padding: 0 1rem;
+
+}
+
+.pages{
+    margin-top: 2rem;
+    margin-left: 300px;
+    text-align: center;
+}
+
+.prev, .next{
+    padding: .7rem 1.4rem;
+    background-color: #009688;
+    color: #ffff;
+    font-size: 18px;
+}
+
+.prev:hover{
+    background-color: #888;
+    color: #333;
+}
+
+.next:hover{
+    background-color: #888;
+    color: #333;
+}
+
+#fun2{
+    display: none;
+}
+
+#about{
+    margin-top: 2rem;
+    margin-left: 300px;
+    padding: 1rem;
+}
+
+.about-col{
+    width: 50%;
+    float: left;
+}
+
+.about-col img{
+    width: 100%;
+    padding: .5rem;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+
+.about-name{
+    font-size: 24px;
+    padding: 1rem;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.about-text{
+    font-size: 15px;
+    line-height: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.tech-name{
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 1.5rem;
+    color: #333333;
+}
+
+.tech-info{
+    color: #445454;
+    padding-bottom: 1rem;
+}
+
+.skills{
+    margin-bottom: 1rem;
+    width: 100%;
+    color: #Fff;
+    background-color: rgb(0, 95, 102);
+     
+}
+
+.skil95{
+    text-align: center;
+    width: 95%;
+    padding: .5rem;
+    background-color: #4eb9af;
+}
+
+.skil85{
+    text-align: center;
+    width: 85%;
+    padding: .5rem;
+    background-color: #4eb9af;
+
+}
+
+.skil80{
+    text-align: center;
+    width: 80%;
+    padding: .5rem;
+    background-color: #4eb9af;
+
+}
+
+.skil-btn{
+    padding: .7rem 2rem;
+    background-color: #4eb9af;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    float: right;
+    margin-top: 1rem;
+}
+
+.skil-btn:hover{
+    background-color: #666;
+}
+
+.skil-btn svg{
+    margin-right: 1rem;
+    margin-top: 2px;
+}
+
+.much{
+    margin-left: 300px;
+    padding: 1rem;
+}
+
+.much-name{
+    font-size: 24px;
+    font-weight: 100;
+    padding-top: 4rem;
+    
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+}
+
+.third{
+    width: 33.333%;
+    text-align: center;
+    padding: 0 .5rem;
+    float: left;
+}
+
+.much-col{
+    opacity: 0.7;
+    border: 1px solid #999;
+    background-color: #fff;
+}
+
+.much-col:hover{
+    opacity: 1;
+}
+
+
+.much-col-name{
+    padding: 2rem;
+    background-color: #000;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.much-col-txt{
+    padding: 1.5rem;
+    border-bottom: 1px solid #999;
+}
+
+.much-col-txt button{
+    border: none;
+    padding: .8rem 1.5rem;
+    background-color: #009688;
+    color: #fff;
+    font-size: 18px;
+}
+
+.much-col-txt button:hover{
+    background-color: #000;
+}
+
+#contact{
+    background-color: #999;
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-left: 300px;
+}
+
+.contact-name{
+    font-size: 24px;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.icon-row{
+    width: 100%;
+    padding-top: 2rem;
+    display: inline-block;
+}
+
+.icon-col{
+    float: left;
+    width: 33.33%;
+    padding: .5rem;
+    color: #fff;
+    background-color: #666;
+}
+
+.icon-col p{
+    text-align: center;
+    padding: .5rem;
+}
+
+.icon-i{
+    padding: 2rem;
+}
+
+#contact hr{
+    padding: 1.5rem;
+    border-bottom: 1px solid #fff;
+}
+
+#contact button img{
+    width: 25px;
+    color: #fff;
+}
+
+.cont-form{
+    padding-top: 2.5rem;
+    padding: 2rem;
+
+}
+
+.cont-form input{
+    width: 100%;
+    font-size: 20px;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+
+.cont-form button{
+    padding: .5rem 1rem;
+    background-color: #000000;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+}
+
+.cont-form button:hover{
+    background-color: #ddd;
+    color: #000;
+}
+
+footer{
+    background-color: #666;
+    margin-left: 300px;
+    padding: 1rem;
+    display: inline-block;
+}
+
+.foot-col{
+    float: left;
+    width: 33.333%;
+}
+
+.foot-col-name{
+    font-size: 20px;
+    padding-top: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
+.foot-col-txt{
+    font-size: 16px;
+    line-height: 1.5rem;
+    color: #fff;
+    padding-bottom: .5rem;
+}
+
+li{
+    list-style-type: none;
+}
+
+.blog img{
+    width: 50px;
+    float: left;
+    margin-right: 1rem;
+}
+
+.blog span{
+    margin-bottom: .5rem;
+    color: #fff;
+}
+
+.blog-name{
+    font-size: 20px;
+    padding-bottom: .5rem;
+}
+
+.line{
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    width: 100%;
+    padding-right: 1rem;
+    border-bottom: 1px solid #fff;
+}
+
+.tags span{
+    padding: 4px;
+    margin-left: 3px;
+    margin-bottom: 1rem;
+    line-height: 2.5rem;
+    font-size: 14px;
+    background-color: #555;
+}
+
+.act{
+    background-color: #000!important;
+    color: #fff;
+}
+
+.nav-mobile{
+    display: none;
+}
+
+
+
+.con {
+    
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 300px;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+.mob-img{
+    float: right;
+    padding: 1rem;
+}
+
+.mob-img img{
+    width: 65px;
+    border-radius: 50px;
+}
+
+
+@media screen and (max-width: 992px){
+    #navbar{
+        display: none;
+    }
+
+    .con{
+        margin-left: 0;
+        padding-left: 2rem;
+    }
+
+    .nav-mobile{
+        display: block;
+    }
+
+    .container, .pages, .much, footer, .images-row1, .images-row2, #about, #contact{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .col-img{
+        width: 100%;
+    }
+
+    .about-col{
+        width: 100%;
+    }
+
+    .third{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .icon-i{
+        padding: .5rem;
+    }
+
+    .icon-col{
+        padding: 0;
+    }
+
+    .foot-col{
+        width: 100%;
+    }
+}
